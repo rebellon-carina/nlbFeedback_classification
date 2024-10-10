@@ -134,10 +134,10 @@ if form.form_submit_button("Submit"):
                         |-----------------------------------|------------------------------------------|
                         | {st.session_state.record_ctr}        |  {len(st.session_state.df_feedback_unknown)} |""")
     
-    st.write("With Category")
-    st.write(st.session_state.df_feedback)
-
-    st.divider()
+    if(len(st.session_state.df_feedback) > 0):
+        st.write("With Category")
+        st.write(st.session_state.df_feedback)
+        st.divider()
 
     if(len(st.session_state.df_feedback_unknown) > 0):
         st.write("Without Category")
@@ -145,50 +145,51 @@ if form.form_submit_button("Submit"):
         st.divider()
 
 
-    # Create a stacked bar chart
+    if(len(st.session_state.df_feedback) > 0):
+        # Create a stacked bar chart
 
-    df_count = st.session_state.df_feedback.groupby(['category', 'subcategory']).size().reset_index(name='count')
+        df_count = st.session_state.df_feedback.groupby(['category', 'subcategory']).size().reset_index(name='count')
 
-    # Create a stacked bar chart
-    fig = px.bar(df_count, 
-                x='category', 
-                y='count', 
-                color='subcategory', 
-                title='Feedback by Category and SubCategory (Count)',
-                labels={'count': 'count', 'category': 'category'},
-                text='count')
+        # Create a stacked bar chart
+        fig = px.bar(df_count, 
+                    x='category', 
+                    y='count', 
+                    color='subcategory', 
+                    title='Feedback by Category and SubCategory (Count)',
+                    labels={'count': 'count', 'category': 'category'},
+                    text='count')
 
-    # Update layout for better readability
-    fig.update_traces(texttemplate='%{text}', textposition='outside')
-    fig.update_layout(barmode='stack')
+        # Update layout for better readability
+        fig.update_traces(texttemplate='%{text}', textposition='outside')
+        fig.update_layout(barmode='stack')
 
-    st.plotly_chart(fig)
+        st.plotly_chart(fig)
 
 
-    st.markdown("""
-        <style>
-        .title {
-            text-align: center;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        </style>
-        <div class="title">WordCloud from Feedback</div>
-        """,
-        unsafe_allow_html=True
-    )
+        st.markdown("""
+            <style>
+            .title {
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            </style>
+            <div class="title">WordCloud from Feedback</div>
+            """,
+            unsafe_allow_html=True
+        )
 
-    # Create and generate a word cloud image:
-    book_mask = np.array(Image.open('image/book_mask.png'))
+        # Create and generate a word cloud image:
+        book_mask = np.array(Image.open('image/book_mask.png'))
 
-    wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
-                            contour_color='black', contour_width=1).generate(st.session_state.all_feedback)
-    
-    # Display the word cloud using matplotlib
-    plt.figure(figsize=(10, 5))
-    plt.imshow(wordcloud, interpolation='bilinear')
-    plt.axis('off')  # Hide the axes
-    plt.tight_layout()
+        wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
+                                contour_color='black', contour_width=1).generate(st.session_state.all_feedback)
+        
+        # Display the word cloud using matplotlib
+        plt.figure(figsize=(10, 5))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')  # Hide the axes
+        plt.tight_layout()
 
-    # Show the plot in Streamlit
-    st.pyplot(plt)
+        # Show the plot in Streamlit
+        st.pyplot(plt)
