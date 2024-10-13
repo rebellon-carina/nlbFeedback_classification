@@ -122,16 +122,6 @@
       },
       {
         "category": "Environment",
-        "subcategory": "Others",
-        "feedback": "To the Library Team, I've noticed that the temperature in the library is often too cold, especially in the afternoons. Many patrons, including myself, find it uncomfortable and have to bring extra layers. Could you please look into adjusting the air conditioning? Thank you for your consideration. Sincerely, Chilly Charlie"
-      },
-      {
-        "category": "Environment",
-        "subcategory": "Others",
-        "feedback": "Hello, I wanted to suggest improving the lighting in the reading areas. The current lighting is quite dim, which can cause eye strain during long reading sessions. Brighter or adjustable lighting options would be greatly appreciated. Thanks for your attention to this matter. Best regards, Bookworm Betty"
-      },
-      {
-        "category": "Environment",
         "subcategory": "Seating Availability",
         "feedback": "Dear Library Administration, I'm writing to express my frustration with the lack of available seating during peak hours, especially in the afternoons. It's often impossible to find a place to study. Could you consider adding more seating or implementing a reservation system? Thank you, Disappointed Daniel"
       },
@@ -262,16 +252,6 @@
       },
       {
         "category": "Policies & Procedures",
-        "subcategory": "Others",
-        "feedback": "Hello Library Management, I noticed that the library doesn't have a clear policy on unattended children. Last week, I saw a very young child left alone for hours. Could you please consider implementing and publicizing a policy to ensure children's safety? Thank you, Concerned Citizen"
-      },
-      {
-        "category": "Policies & Procedures",
-        "subcategory": "Others",
-        "feedback": "Dear Sir/Madam, I wanted to suggest implementing a 'Quiet Room' policy where patrons can make short, essential phone calls without disturbing others. Many libraries I've visited have such spaces, and they're very useful. Thank you for considering this idea. Best, Practical Paul"
-      },
-      {
-        "category": "Policies & Procedures",
         "subcategory": "Reservation fee & policy",
         "feedback": "To the Library Administration, I find the current reservation fee for books quite high, especially for students. Would it be possible to introduce a lower fee for students or a system where the fee is refunded upon pickup? This would make reservations more accessible. Thank you, Budget-conscious Bella"
       },
@@ -319,16 +299,6 @@
         "category": "Programmes",
         "subcategory": "Loan promotion",
         "feedback": "Hello, I'm writing to suggest extending the duration of your loan promotions. The recent one only lasted a week, which wasn't enough time for many patrons to take advantage of it. Perhaps consider running them for at least two weeks? Thank you for considering this feedback. Regards, Promo Fan Penny"
-      },
-      {
-        "category": "Programmes",
-        "subcategory": "Others",
-        "feedback": "Dear Library Administration, I recently participated in the 'Reading Buddies' programme and found it incredibly rewarding. However, I noticed there weren't many adult volunteers. Perhaps you could promote this programme more widely to attract more participants? It's such a valuable initiative. Best wishes, Volunteer Vicky"
-      },
-      {
-        "category": "Programmes",
-        "subcategory": "Others",
-        "feedback": "To whom it may concern, I wanted to suggest implementing a book club programme at the library. It would be a great way for readers to connect and discuss literature. If you need help organizing, I'd be happy to volunteer. Thank you for considering this idea. Sincerely, Book Lover Ben"
       },
       {
         "category": "Programmes",
@@ -509,16 +479,6 @@
         "category": "Services & Facilities",
         "subcategory": "Online reservation",
         "feedback": "Hello, I wanted to commend you on the new feature that allows us to choose our pickup location for reserved items. It's made the reservation process much more convenient. However, could you consider extending the pickup window from 7 to 10 days? Thanks, Grateful Grace"
-      },
-      {
-        "category": "Services & Facilities",
-        "subcategory": "Others",
-        "feedback": "Dear Library Administration, I recently noticed that the library doesn't have a water fountain. Given Singapore's hot climate, it would be great to have a place to refill water bottles. Could you consider installing one? It would greatly enhance patron comfort. Thank you, Thirsty Theo"
-      },
-      {
-        "category": "Services & Facilities",
-        "subcategory": "Others",
-        "feedback": "To whom it may concern, I wanted to suggest implementing a book recommendation service. It could be a great way for patrons to discover new reads based on their preferences. Perhaps this could be done through a short questionnaire or based on borrowing history? Best regards, Discovery Diane"
       },
       {
         "category": "Services & Facilities",

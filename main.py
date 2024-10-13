@@ -174,16 +174,18 @@ if form.form_submit_button("Submit"):
                 font-weight: bold;
             }
             </style>
-            <div class="title">WordCloud from Feedback</div>
+            <div class="title">WordCloud from Keywords</div>
             """,
             unsafe_allow_html=True
         )
 
+        result = ' '.join([word for sublist in st.session_state.df_feedback["keywords"] for word in sublist])
+
         # Create and generate a word cloud image:
-        book_mask = np.array(Image.open('image/book_mask.png'))
+        book_mask = np.array(Image.open('image/book-2.jpg'))
 
         wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
-                                contour_color='black', contour_width=1).generate(st.session_state.all_feedback)
+                                contour_color='black', contour_width=1).generate(result)
         
         # Display the word cloud using matplotlib
         plt.figure(figsize=(10, 5))
