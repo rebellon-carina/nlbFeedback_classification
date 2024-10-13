@@ -182,7 +182,7 @@ if form.form_submit_button("Submit"):
         result = ' '.join([word for sublist in st.session_state.df_feedback["keywords"] for word in sublist])
 
         # Create and generate a word cloud image:
-        book_mask = np.array(Image.open('image/book-2.jpg'))
+       #book_mask = np.array(Image.open('image/book-2.jpg'))
 
         wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
                                 contour_color='black', contour_width=1).generate(result)
