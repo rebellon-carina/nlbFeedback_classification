@@ -31,9 +31,14 @@ st.title("Feedback Entry Form")
 
 if 'df_cloak_available' not in st.session_state:
     try:
-        cloakapi.check_connection()
-        st.session_state.df_cloak_available = 1
-        st.markdown('### :blue[Cloak Anonymisation API Enabled]')
+        response =  cloakapi.check_connection()
+
+        if response.status_code >= 400 and response.status_code <= 600:
+            st.session_state.df_cloak_available = 0
+            st.markdown('###  :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
+        else:
+            st.session_state.df_cloak_available = 1
+            st.markdown('### :blue[Cloak Anonymisation API Enabled]')
     except:
         st.session_state.df_cloak_available = 0
         st.markdown('###  :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
@@ -106,8 +111,11 @@ if form.form_submit_button("Submit"):
             st.write(f"Debug Record :{record}")
 
         if st.session_state.df_cloak_available == 1:
-            record = cloakapi.cloak_transform(record)
-            #st.write(f"Free Text Anonymisation: {record}")
+            try:
+                record = cloakapi.cloak_transform(record)
+            except:
+                st.write(f"Error in Text Anonymisation, unable to proceed {record}")
+                break
 
         response= feedback_class.process_feedback_class(record)
                      

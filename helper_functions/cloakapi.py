@@ -95,7 +95,7 @@ def check_connection():
     authorization = f'CLOAK-AUTH Credential={public_key},SignedHeaders=content-type,Signature={signature}'
     headers = {'Content-Type':'application/json', 'Accept':'application/json', 'Authorization': f'{authorization}', 'x-cloak-service': f'{service}'}
     response = requests.get(url, headers=headers, verify=False)
-    print(response.json())
+    return response
 
 def cloak_transform(record):
     # Transform Endpoint
