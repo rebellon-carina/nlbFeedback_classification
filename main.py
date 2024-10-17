@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 import time
 import numpy as np
 from PIL import Image
+from helper_functions import cloakapi
 
 #debugging 
 debug = 0
@@ -27,6 +28,21 @@ st.set_page_config(
 # endregion <--------- Streamlit App Configuration --------->
 
 st.title("Feedback Entry Form")
+
+if 'df_cloak_available' not in st.session_state:
+    try:
+        cloakapi.check_connection()
+        st.session_state.df_cloak_available = 1
+        st.markdown('### :blue[Cloak Anonymisation API Enabled]')
+    except:
+        st.session_state.df_cloak_available = 0
+        st.markdown('###  :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
+else:
+    if st.session_state.df_cloak_available == 1:
+        st.markdown('###  :blue[Cloak Anonymisation API Enabled]')
+    else:
+        st.markdown('###  :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
+
 
 if 'df_feedback' not in st.session_state:
     st.session_state.df_feedback = pd.DataFrame()
@@ -88,6 +104,10 @@ if form.form_submit_button("Submit"):
 
         if debug == 1:
             st.write(f"Debug Record :{record}")
+
+        if st.session_state.df_cloak_available == 1:
+            record = cloakapi.cloak_transform(record)
+            #st.write(f"Free Text Anonymisation: {record}")
 
         response= feedback_class.process_feedback_class(record)
                      
@@ -182,7 +202,7 @@ if form.form_submit_button("Submit"):
         result = ' '.join([word for sublist in st.session_state.df_feedback["keywords"] for word in sublist])
 
         # Create and generate a word cloud image:
-       #book_mask = np.array(Image.open('image/book-2.jpg'))
+        book_mask = np.array(Image.open('image/blank.jpeg'))
 
         wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
                                 contour_color='black', contour_width=1).generate(result)
