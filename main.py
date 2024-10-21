@@ -29,6 +29,7 @@ st.set_page_config(
 
 st.title("Feedback Entry Form")
 
+# try catch Cloak API
 if 'df_cloak_available' not in st.session_state:
     try:
         response =  cloakapi.check_connection()
@@ -48,8 +49,8 @@ else:
     else:
         st.markdown('###  :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
 
-
-if 'df_feedback' not in st.session_state:
+# initialising dataframes to store output variables
+if 'df_feedback' not in st.session_state: # can we remove this since the session_state.df_feedback is initiated again later?
     st.session_state.df_feedback = pd.DataFrame()
 
 if 'df_feedback_unknown' not in st.session_state:
@@ -77,6 +78,7 @@ def parse_records(input_text):
 form = st.form(key="form")
 #form.subheader("Prompt")
 
+# text box for users to input feedback texts by copying and pasting for excel
 user_prompt = form.text_area("Enter your feeback here, you can copy multiple feedback from excel and paste it here. Records will be split by double quotes or new line.", height=400)
 
 if form.form_submit_button("Submit"):
@@ -93,8 +95,9 @@ if form.form_submit_button("Submit"):
 
     i=0
 
-    for  record in records:
-        st.session_state.all_feedback += record
+    # Loop through all feedback and send each piece of feedback to LLM for classification separately
+    for record in records:
+        st.session_state.all_feedback += record # append feedback that will eventually be printed in dataframe
         st.session_state.record_ctr += 1
 
         
@@ -110,6 +113,7 @@ if form.form_submit_button("Submit"):
         if debug == 1:
             st.write(f"Debug Record :{record}")
 
+        # cleaning with cloak before sending to LLM
         if st.session_state.df_cloak_available == 1:
             try:
                 record = cloakapi.cloak_transform(record)
@@ -117,13 +121,13 @@ if form.form_submit_button("Submit"):
                 st.write(f"Error in Text Anonymisation, unable to proceed {record}")
                 break
 
-        response= feedback_class.process_feedback_class(record)
+        response= feedback_class.process_feedback_class(record) # send record to LLM to classify
                      
         if debug == 1:
             st.write(f"Debug Response :{response}")
 
 
-        try:
+        try: # check if LLM output is in suitable format
             response_json = json.loads(response)
 
             df = pd.DataFrame(response_json['feedback_data'])
@@ -134,7 +138,7 @@ if form.form_submit_button("Submit"):
                 if(len(st.session_state.df_feedback) > 0):
                     st.session_state.df_feedback = pd.concat([st.session_state.df_feedback, df], ignore_index=True)
                     
-                else:
+                else: 
                     st.session_state.df_feedback = df
             else:
                 
@@ -144,7 +148,9 @@ if form.form_submit_button("Submit"):
                     st.session_state.df_feedback_unknown = pd.concat([st.session_state.df_feedback_unknown, df], ignore_index=True)
                 else:
                     st.session_state.df_feedback_unknown = df
-        except:
+        except: 
+            # if there was a different response from LLM, e.g. not in json format, empty value,
+            # add the feedback to another dataframe
 
             df = pd.DataFrame({'Feeedback': [record]})
 
@@ -162,10 +168,25 @@ if form.form_submit_button("Submit"):
                         |-----------------------------------|------------------------------------------|
                         | {st.session_state.record_ctr}        |  {len(st.session_state.df_feedback_unknown)} |""")
     
+    @st.cache_data
+    def convert_df(df):
+        # IMPORTANT: Cache the conversion to prevent computation on every rerun
+        return df.to_csv().encode("utf-8")
+    
+    @st.fragment()
+    def download_button():
+        st.download_button( # download button to faciliate download on GSIB
+            label="Download data as CSV",
+            data=convert_df(st.session_state.df_feedback),
+            file_name="large_df.csv",
+            mime="text/csv"
+            )
+
     if(len(st.session_state.df_feedback) > 0):
         st.write("With Category")
         st.write(st.session_state.df_feedback)
         st.divider()
+        download_button()
 
     if(len(st.session_state.df_feedback_unknown) > 0):
         st.write("Without Category")
