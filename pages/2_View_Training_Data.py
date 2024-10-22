@@ -13,4 +13,6 @@ with open(filepath, 'r') as file:
 df = pd.DataFrame(dict_of_feedback['feedback_data'])
 
 
-st.write(df)
+#st.write(df)
+
+st.markdown(df.to_html(escape=False, index=False), unsafe_allow_html=True)

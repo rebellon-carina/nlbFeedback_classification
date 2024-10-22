@@ -27,7 +27,7 @@ st.set_page_config(
 )
 # endregion <--------- Streamlit App Configuration --------->
 
-st.title("Feedback Entry Form")
+
 
 # try catch Cloak API
 if 'df_cloak_available' not in st.session_state:
@@ -36,18 +36,18 @@ if 'df_cloak_available' not in st.session_state:
 
         if response.status_code >= 400 and response.status_code <= 600:
             st.session_state.df_cloak_available = 0
-            st.markdown('###  :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
+            st.markdown('### :heavy_exclamation_mark: :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
         else:
             st.session_state.df_cloak_available = 1
-            st.markdown('### :blue[Cloak Anonymisation API Enabled]')
+            st.markdown('### :white_check_mark: :blue[Cloak Anonymisation API Enabled]')
     except:
         st.session_state.df_cloak_available = 0
-        st.markdown('###  :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
+        st.markdown('### :heavy_exclamation_mark: :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
 else:
     if st.session_state.df_cloak_available == 1:
-        st.markdown('###  :blue[Cloak Anonymisation API Enabled]')
+        st.markdown('### :white_check_mark: :blue[Cloak Anonymisation API Enabled]')
     else:
-        st.markdown('###  :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
+        st.markdown('### :heavy_exclamation_mark: :red[Cloak Anonymisation API Not Enabled. Do not submit if theres sensitive information]')
 
 # initialising dataframes to store output variables
 if 'df_feedback' not in st.session_state: # can we remove this since the session_state.df_feedback is initiated again later?
@@ -74,6 +74,7 @@ def parse_records(input_text):
     # Filter out any empty strings that may occur due to split
     return [record for record in records if record]
 
+st.title(":pencil: Feedback Entry Form")
 
 form = st.form(key="form")
 #form.subheader("Prompt")
@@ -185,9 +186,9 @@ if form.form_submit_button("Submit"):
     if(len(st.session_state.df_feedback) > 0):
         st.write("With Category")
         st.write(st.session_state.df_feedback)
-        st.divider()
         download_button()
-
+        st.divider()
+        
     if(len(st.session_state.df_feedback_unknown) > 0):
         st.write("Without Category")
         st.write(st.session_state.df_feedback_unknown)
