@@ -3,7 +3,7 @@ import streamlit as st
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
     layout="wide",
-    page_title="ABout"
+    page_title="About"
 )
 # endregion <--------- Streamlit App Configuration --------->
 
