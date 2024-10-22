@@ -1,72 +1,72 @@
 {
     "feedback_data": [
       {
-        "category": "Digital Collection",
+        "category": "Collection-e",
         "subcategory": "Availability",
         "feedback": "Dear Library Team, I've been trying to access the e-book 'The Midnight Library' for weeks now, but it's always unavailable. Could you please consider purchasing more digital licenses for popular titles? It's frustrating to wait so long. Thank you for your consideration. Best regards, Emily Chen"
       },
       {
-        "category": "Digital Collection",
+        "category": "Collection-e",
         "subcategory": "Availability",
         "feedback": "Hello, I'm writing to express my concern about the limited availability of audiobooks in your digital collection. It seems that all the bestsellers are constantly on hold with long waiting lists. Is there a way to increase the number of copies for high-demand titles? It would greatly improve the user experience. Thanks, Michael Wong"
       },
       {
-        "category": "Digital Collection",
+        "category": "Collection-e",
         "subcategory": "Variety",
         "feedback": "Hello Library Management, I'm a big fan of your digital collection, but I've noticed a lack of diversity in the non-fiction section, particularly in science and technology topics. It would be great if you could expand the variety in these areas. Perhaps consider adding more recent publications on artificial intelligence and machine learning? Thank you for your time, Dr. Jasmine Teo"
       },
       {
-        "category": "Digital Collection",
+        "category": "Collection-e",
         "subcategory": "Variety",
         "feedback": "Dear Sir/Madam, I'm writing to suggest an improvement to your digital magazine collection. While you have a good selection of general interest magazines, there seems to be a limited variety of specialized or niche publications. It would be wonderful if you could add more magazines related to hobbies like gardening, woodworking, or photography. This would greatly enhance the value of the digital collection for many patrons. Best wishes, Robert Ng"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Availability",
         "feedback": "Dear Library Management, I've been trying to borrow 'The Midnight Library' for over a month now, but it's always checked out. Could you please consider purchasing additional copies of popular books to reduce wait times? It's frustrating to see such long hold queues. Thank you for your consideration. Best regards, Sarah Lim"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Availability",
         "feedback": "Hello, I'm writing to express my concern about the limited availability of textbooks in your collection. As a student, it's challenging to find the required course materials, especially during exam periods. Would it be possible to increase the number of copies for commonly used textbooks? This would greatly help students like me. Thanks in advance, John Tan"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Review of titles",
         "feedback": "Hello Library Team, I recently borrowed 'The Silent Patient' and found it to be an excellent psychological thriller. I highly recommend adding more titles by Alex Michaelides to your collection. It would be great to see more contemporary mystery novels like this one. Best regards, Michelle Lee"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Review of titles",
         "feedback": "Dear Sir/Madam, I wanted to provide feedback on the book 'Atomic Habits' by James Clear. It's an insightful read on building good habits and breaking bad ones. I think it would be valuable to have more copies of this book available, as well as similar self-improvement titles. They seem to be in high demand. Thanks for your consideration, David Ng"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Shelving",
         "feedback": "To the Library Staff, I've noticed that books in the History section are often misplaced or difficult to locate. It seems the shelving in this area isn't being maintained as regularly as it should be. Could you please ensure more frequent reshelving in this section? It would make finding specific titles much easier. Thank you, Professor Lim Mei Ling"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Shelving",
         "feedback": "Hello, I'm writing to bring attention to the disorganized state of the Children's section. As a parent, I find it challenging to help my kids find books because they're often not in their correct places. Could this area be tidied more frequently? It would greatly improve our library experience. Best wishes, Mrs. Siti Aminah"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Vandalism",
         "feedback": "Dear Library Management, I'm writing to report that I found a book with several pages torn out in the Fiction section (call number F LEE). It's disheartening to see such disrespect for public resources. Could you implement stricter measures to prevent book vandalism? Sincerely, Robert Tan"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Vandalism",
         "feedback": "Hello, I wanted to inform you that I noticed some inappropriate drawings in one of the graphic novels in the Young Adult section. It appears someone has defaced several pages with crude sketches. Could you please remove this book for review and consider ways to discourage such behavior? Thank you for your attention to this matter. Regards, Concerned Parent"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Variety",
         "feedback": "To whom it may concern, I've noticed that your collection of books on artificial intelligence and machine learning is quite limited. Given the growing importance of these fields, could you consider expanding this section? It would be incredibly helpful for students and professionals in the tech industry. Thanks in advance, Dr. Tan Wei Ling"
       },
       {
-        "category": "Physical Collection",
+        "category": "Collection-Print",
         "subcategory": "Variety",
         "feedback": "Dear Librarian, As an avid cook, I'd love to see more variety in your cookbook collection. While you have a good selection of general cookbooks, it would be great to see more titles focusing on specific cuisines (especially Asian cuisines) or dietary requirements (like vegan or gluten-free). This would cater to our diverse community's culinary interests. Best wishes, Chef Kumar"
       },

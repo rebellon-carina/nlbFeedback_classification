@@ -16,9 +16,13 @@ load_dotenv('.env')
 OPENAI_KEY = os.getenv('OPENAI_API_KEY')
 
 # Pass the API Key to the OpenAI Client
-client = OpenAI(api_key=OPENAI_KEY)
+client = OpenAI(
+   api_key=OPENAI_KEY,
+   base_url = "https://litellm.govtext.gov.sg",
+   default_headers ={"user-agent": "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/81.0"}
+   )
 
-def get_embeddingxxx(input, model='text-embedding-3-small'):
+def get_embedding(input, model='text-embedding-3-small'):
     response = client.embeddings.create(
         input=input,
         model=model
