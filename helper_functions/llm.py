@@ -31,7 +31,7 @@ def get_embedding(input, model='text-embedding-3-small'):
 
 
 # This is the "Updated" helper function for calling LLM
-def get_completion(prompt, model="gpt-4o-mini", temperature=0, top_p=1.0, max_tokens=1024, n=1, json_output=False):
+def get_completion(prompt, model="gpt-4o-mini-prd-gcc2-lb", temperature=0, top_p=1.0, max_tokens=1024, n=1, json_output=False):
     if json_output == True:
       output_json_structure = {"type": "json_object"}
     else:
@@ -51,7 +51,7 @@ def get_completion(prompt, model="gpt-4o-mini", temperature=0, top_p=1.0, max_to
 
 
 # Note that this function directly take in "messages" as the parameter.
-def get_completion_by_messages(messages, model="gpt-4o-mini", temperature=0, top_p=1.0, max_tokens=1024, n=1):
+def get_completion_by_messages(messages, model="gpt-4o-mini-prd-gcc2-lb", temperature=0, top_p=1.0, max_tokens=1024, n=1):
     response = client.chat.completions.create(
         model=model,
         messages=messages,
