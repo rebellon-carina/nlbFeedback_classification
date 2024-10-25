@@ -1,0 +1,817 @@
+[
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reservation services - Others",
+        "feedback": "Hello, I wanted to suggest implementing a feature that notifies us when a reserved book becomes available at a nearer library branch. Sometimes I reserve a book at a faraway branch, not realizing it's available closer to home. This would save time and travel. Best regards, Efficient Eric"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Shelving",
+        "feedback": "I have been to <LOCATION> Regional Library a few times. It has been frustrating looking for books referencing the book shelf location from the NLB app. See attached for an example, the book I want to borrow is supposed to be found at Early Literacy 4-6 Junior Picture. It took a long time for me to find it because the actual shelf it was on was labelled ???????4?8??. Out of 10 books I shortlisted on my NLB app, I could only find 1 or 2 <DATE_TIME> in Punggol Regional Library. Please standardize the signages to the NLB app records. The staff I approached also tried their best but I could see they were also confused a lot of times about which shelf the app was referring to. I also found out that because some shelves were full, 2 of those books marked available in the app, were actually not put on the shelves but in storage. In particular the Hanyu Pinyin section. Please look into the Hanyu Pinyin section. Thanks. Aside from my feedback, please keep up with the good work you are doing for the literacy of our nation."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Microfilm services",
+        "feedback": "I went to the Reference section of NLB and wanted to take print outs from some micro films. I learn that the printer is not available and all we can <SG_ADDRESS_STREET> files. Can you please help making a printer available ? thanks. Also, will this be a printer that prints photograph like printouts or just photocopier type? asking since the prints I am taking are photographs mainly."
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Toilets",
+        "feedback": "Dear Sir/Madam, I wanted to commend the recent renovation of the ground floor toilets. The new facilities are clean, modern, and well-maintained. It's a significant improvement and adds to the overall positive experience of visiting the library. Thank you for this upgrade. Best wishes, Satisfied Sam"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Signage",
+        "feedback": "Hi, I signed up for the event at Central Library <DATE_TIME> on <LOCATION>. The display of the number of available parking lots at <SG_ADDRESS_STREET> is faulty. It showed that there were 24 available lots when I entered, but there were none. I left after circling and waiting for <DATE_TIME>."
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Variety",
+        "feedback": "To whom it may concern, I've noticed that your collection of books on artificial intelligence and machine learning is quite limited. Given the growing importance of these fields, could you consider expanding this section? It would be incredibly helpful for students and professionals in the tech industry. Thanks in advance, Dr. Tan Wei Ling"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Catalogue",
+        "feedback": "Hello Library Team, I find your online catalogue system quite user-friendly, but I've noticed that the search function sometimes yields irrelevant results. Could you look into improving the search algorithm? This would make finding specific books much easier. Thank you, Searcher Sam"
+    },
+    {
+        "category": "Customer Service",
+        "subcategory": "Staff",
+        "feedback": "Dear Library Management, I wanted to commend one of your staff members, Ms. Tan, for her exceptional service yesterday. She went above and beyond to help me locate a rare book I needed for my research. Her knowledge and patience were truly appreciated. It's staff like her that make our library such a valuable resource. Sincerely, Professor Lee Kuan Yew"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Review of titles",
+        "feedback": "Hello Library Team, I recently borrowed 'The Silent Patient' and found it to be an excellent psychological thriller. I highly recommend adding more titles by Alex Michaelides to your collection. It would be great to see more contemporary mystery novels like this one. Best regards, Michelle Lee"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Wireless Internet services",
+        "feedback": "Hi, I am at at the Level 3 cafe in the NLB Building, and realised that there is no access to WirelessSG. No other WiFi here either. I would like to suggest installing WirelessSG here please, as this is something that most patrons have come to expect in all NLB areas?"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Donation",
+        "feedback": "To the Library Team, I recently tried to donate some books but was turned away because you weren't accepting donations at the time. It would be helpful if you could post your donation policies and schedules on your website. This would save patrons time and effort. Thanks, Generous Giver"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Noise",
+        "feedback": "Dear Library Management, I wanted to express my appreciation for the new 'silent zone' implemented on the third floor. It's been a great addition for those of us who need absolute quiet for studying. The staff has done an excellent job of maintaining the silence. Well done! Best, Grateful Researcher"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Online renewal",
+        "feedback": "Thank you for your response. However, as highlighted earlier, I believe my feedback has not been addressed. If the feedback is understood, it should be clear it isn't conflicting with equitable availability of resources. Thus it does not explain why the borrower was not afforded the opportunity to extend the borrowing period, resulting in immediate overdue charges. The borrower is already allowed renewal and there is no reservation in question. The replies seems to constantly brushing aside the feedback without properly understanding them. There are flaws in the current processes, that seems contradictory to the principle of providing library services to patrons. I hope NLB can take a closer look at the feedback provided and address them more specifically."
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Membership-Basic",
+        "feedback": "Dear Library Administration, I recently tried to sign up for a library membership online but found the process confusing. Could you please simplify the online registration form and provide clearer instructions? This would make it easier for new patrons to join. Thank you, Potential Patron"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Variety",
+        "feedback": "Thanks for your reply. Unfortunately NUS or NTU do not grant public access to their libraries, much less to borrow their books. The books I mentioned (and which are in my recommendations list in my NLB account) are available in the Munich public library, which is where I'm currently borrowing them from. <LOCATION> is considerably smaller than <LOCATION>, with a much smaller population. As mentioned, these books are not specialised in the sense of being hard to understand but rather in the sense of being of a certain genre or topic. I do hope NLB will think as highly of <LOCATION>'s population as <LOCATION> does its own and procure these books in future."
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Claim return",
+        "feedback": "Hello, I'm writing about a book I returned last week that's still showing as checked out on my account. I've tried to resolve this at the counter, but the staff couldn't help. Could you please look into improving the claim return process? It's quite stressful. Thank you, Worried William"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Event Publicity - others",
+        "feedback": "Dear Library Management, I wanted to suggest expanding your event publicity to social media platforms like Instagram and Twitter. Many young patrons like myself rely on these platforms for information. It could help increase participation in your excellent programmes. Best wishes, Social Media Sam"
+    },
+    {
+        "category": "Customer Service",
+        "subcategory": "Vendor",
+        "feedback": "To the Library Administration, I wanted to commend the cleaning service vendor you've contracted. The library has never looked cleaner or more organized. It's a pleasure to spend time in such a well-maintained space. Please pass on my compliments to the cleaning staff. Sincerely, Neat Freak Nancy"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library Etiquette - Studying",
+        "feedback": "Dear Sir/Madam, I wanted to commend the new 'quiet floor' policy you've implemented. It's made a significant difference in providing a peaceful environment for serious study. The clear signage and staff enforcement have been excellent. Well done! Sincerely, Grateful Grad Student"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Speaker",
+        "feedback": "went to <PERSON>. the <NRP> lady ( leader) has serious attitude problems. she is rude and arrogant. even scolded a performer participant in front of everybody for mispronouncing her name. that lady was visibly upset. later, lady told us she scolded her back. the leader bad attitude causes dis-harmony. nothing wrong with mispronouncing a name. I couldn't even remember <PERSON> and he is our President. 3 of us were first timers attending to see what was <PERSON>. we walked out as we did not want to see such behaviour."
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Venue",
+        "feedback": "To the Library Administration, I recently attended a poetry reading in the main hall and found the acoustics to be poor. It was difficult to hear the speakers clearly. Could you consider using a better sound system or choosing a more suitable venue for such events in the future? Thank you for your attention to this matter. Sincerely, Audiophile Adam"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Exhibition",
+        "feedback": "Interesting exhibit items and gallery"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Membership-Basic",
+        "feedback": "Hello, I wanted to express my satisfaction with the new digital library card option. Being able to use my smartphone as my library card is incredibly convenient. Great job embracing technology! Best wishes, Tech-Savvy Tessa"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Book Borrowing station",
+        "feedback": "Dear Library Management, I recently used the new self-service book borrowing station and found it incredibly efficient. It significantly reduced my waiting time. However, I noticed that it doesn't accept cash for paying fines. Could you consider adding this feature for those who prefer cash transactions? Thank you, Efficient Emma"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Circulation",
+        "feedback": "Why NLB has to lock me up from borrowing (E-book) when I have an outstanding fee which is not due for payment? Don't you think this is unfriendly and high-handed to punish reader for NO-OBVIOUS reason? It is unacceptable as public serving organization."
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Donation",
+        "feedback": "Hello Library Management, I appreciate your book donation program. However, I noticed that the drop-off point is often full. Could you consider increasing the frequency of collection or providing a larger donation box? It would encourage more people to donate. Sincerely, Book Lover"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Microfilm Services",
+        "feedback": "Hello Library Staff, I recently used the microfilm services for my research and found the equipment to be outdated and difficult to use. Would it be possible to upgrade to more modern, user-friendly machines? This would greatly enhance the research experience. Thank you, Historian Harry"
+    },
+    {
+        "category": "Collection-e",
+        "subcategory": "Variety",
+        "feedback": "Dear Sir/Madam, I'm writing to suggest an improvement to your digital magazine collection. While you have a good selection of general interest magazines, there seems to be a limited variety of specialized or niche publications. It would be wonderful if you could add more magazines related to hobbies like gardening, woodworking, or photography. This would greatly enhance the value of the digital collection for many patrons. Best wishes, Robert Ng"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Book drop",
+        "feedback": "To whom it may concern, The book drop service is generally convenient, but I've noticed that during peak times, the bin gets full quickly. Could you consider increasing the frequency of collection or installing a larger capacity bin? This would prevent books from piling up outside. Sincerely, Concerned Chris"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Circulation",
+        "feedback": "Dear Library Staff, I wanted to commend your efficient circulation system. The self-checkout kiosks are user-friendly and rarely have issues. It's made borrowing books a breeze. Keep up the good work! Best wishes, Happy Patron"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Shelving",
+        "feedback": "Hello, I'm writing to bring attention to the disorganized state of the Children's section. As a parent, I find it challenging to help my kids find books because they're often not in their correct places. Could this area be tidied more frequently? It would greatly improve our library experience. Best wishes, Mrs. Siti Aminah"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Online reservation",
+        "feedback": "Hello, I wanted to commend you on the new feature that allows us to choose our pickup location for reserved items. It's made the reservation process much more convenient. However, could you consider extending the pickup window from 7 to 10 days? Thanks, Grateful Grace"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library fines",
+        "feedback": "Many thanks to you and the NLB team for understanding and accepting my request for a fine waiver. However, I must clarify that I have returned all the books to the library and do not have any of the items listed below in my possession. As I previously explained to the staff of Punggol library, there were a few occasions when the automated return system did not capture the books I returned. Unfortunately, as we did not anticipate this issue, we did not record or photograph the incidents where the books were placed in the return slot but were not reflected on the screen. I kindly ask for your trust and understanding that we are not holding on to any of the library books listed below."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Mobile App",
+        "feedback": "The recent NLB app update is not compatible for Android 9 which means I will not be able to use your app in future. I will need to access my account, loan records etc through your website instead. Is it possible to make you app more compatible and less exclusive so users with older phones are not excluded."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Wireless Internet services",
+        "feedback": "To whom it may concern, I'm a regular user of the library's wireless internet service and have generally found it reliable. However, I've noticed that during peak hours, the connection speed significantly drops. This makes it challenging to conduct research or work on online projects. Could you look into increasing the bandwidth or implementing a fair usage policy to ensure consistent speeds for all users? Your attention to this matter would be greatly appreciated. Best wishes, Working Wendy"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Book drop",
+        "feedback": "Dear Library Staff, I wanted to commend you on the new 24/7 book drop facility. It's been incredibly helpful for those of us with busy schedules. The automatic receipt system is also a great touch. Well done on this improvement! Best wishes, Appreciative Alex"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library Etiquette-others",
+        "feedback": "Dear Library Staff, I wanted to express my appreciation for your handling of a recent situation where a patron was talking loudly on their phone. The staff member politely reminded them of the quiet policy, which greatly improved the environment for everyone. Keep up the good work! Best, Quiet Quentin"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Variety",
+        "feedback": "Dear Librarian, As an avid cook, I'd love to see more variety in your cookbook collection. While you have a good selection of general cookbooks, it would be great to see more titles focusing on specific cuisines (especially Asian cuisines) or dietary requirements (like vegan or gluten-free). This would cater to our diverse community's culinary interests. Best wishes, Chef Kumar"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Catalogue",
+        "feedback": "I am therefore writing to you in the hope that the NLB could respond on the following: 1. confirm whether the current online search engine is unable to locate travel guide books; 2a. if it can't, please enhance the search engine so that it is able to do so ; 2b., if it can, please explain HOW I can look for specific travel guide books using your online search; 3. train your officers to read, understand and address queries in the spirit of public service rather than reflexively redirect and deflect queries they receive. 4. train your branch library staff in the use of NLB's online search functions don't you think that your frontline staff should minimally be familiar with the use of your primary public interface?"
+    },
+    {
+        "category": "Customer Service",
+        "subcategory": "Vendor",
+        "feedback": "I am very pleased being served by Mr <PERSON> during my visit. He was very helpfull, patience, polite and friendly in helping me out with the computer application. thank you so much and really appreciate?? Thank you."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Powerpoint outlets",
+        "feedback": "The electrical socket at seat S52 of Jurong West Public Library is faulty. Further, I saw elderly trying to use S56's socket but left after plugging in to use another table, it is likely to be faulty as well. Hope NLB may conduct maintenance on the electrical sockets."
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Reservation fee & policy",
+        "feedback": "I do think NLB should do away with reservation fees as well as cost of transferring books. The amount adds up"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reservation services - Reservation Lockers",
+        "feedback": "Dear Library Staff, The reservation lockers are a great addition, but I've noticed that they're often full, especially on weekends. Could you consider adding more lockers or implementing a time limit for pickup? This would ensure more patrons can benefit from this convenient service. Sincerely, Waiting Walter"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Exhibition",
+        "feedback": "Dear Sir/Madam, While I appreciate the effort put into the recent art exhibition, I found the space a bit cramped and poorly lit. It was difficult to fully appreciate the artworks. For future exhibitions, could you consider using a larger area with better lighting? Thank you for your attention to this feedback. Sincerely, Art Aficionado Alice"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Circulation",
+        "feedback": "To whom it may concern, I find the current loan period of 21 days too short, especially for non-fiction books. Would it be possible to extend this to 28 days or allow for online renewals? This would greatly help those of us doing in-depth research. Sincerely, Professor Lim"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Reservation fee & policy",
+        "feedback": "Hello, I wanted to express my appreciation for the new online reservation system. Being able to reserve books from home and receive email notifications when they're ready for pickup has been incredibly convenient. Well done on this improvement! Regards, Efficient Eddie"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library fines",
+        "feedback": "To the Library Team, I understand the need for fines, but I find the current rate quite high. For students like me, it can be a significant burden. Would you consider implementing a tiered system or offering alternatives like community service? Thank you for your consideration. Best, Struggling Student"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Signage",
+        "feedback": "Dear Library Team, I wanted to express my appreciation for the new digital signage installed at the entrance. It's very helpful in highlighting events, new arrivals, and library updates. The clear, dynamic displays have significantly improved my awareness of library offerings. Well done! Sincerely, Informed Irene"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Registration",
+        "feedback": "To the Library Management, I tried to register for the upcoming writing workshop but found the online registration system confusing and slow. It would be great if you could simplify the process or provide clearer instructions. This would make it easier for patrons to participate in your excellent programmes. Thank you, Aspiring Author Amy"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Registration",
+        "feedback": "Hello, I wanted to commend your new queue number system for event registrations. It's much fairer than the previous first-come-first-served system and has made the process less stressful. Great improvement! Best regards, Appreciative Alex"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Event Publicity - GoLibrary",
+        "feedback": "Hello, I wanted to commend the library for the excellent use of push notifications in the GoLibrary app for event reminders. It's been incredibly helpful in ensuring I don't miss out on interesting programmes. Keep up the good work! Best regards, Appreciative Andy"
+    },
+    {
+        "category": "Collection-e",
+        "subcategory": "Variety",
+        "feedback": "Hello Library Management, I'm a big fan of your digital collection, but I've noticed a lack of diversity in the non-fiction section, particularly in science and technology topics. It would be great if you could expand the variety in these areas. Perhaps consider adding more recent publications on artificial intelligence and machine learning? Thank you for your time, Dr. Jasmine Teo"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Resources",
+        "feedback": "To the Library Administration, I'm impressed with the range of e-books and online resources available. However, I've had trouble accessing some databases from home. Could you provide clearer instructions on how to use these resources remotely? This would be incredibly helpful for research. Thank you, Student Steve"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library Etiquette - Studying",
+        "feedback": "Hello Library Management, I'm a student who frequently uses the library for studying. Lately, I've noticed groups of students being quite noisy in the individual study areas. Could you please consider implementing stricter rules or creating more designated group study spaces? Thank you, Focused Fiona"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Review of titles",
+        "feedback": "Dear Sir/Madam, I wanted to provide feedback on the book 'Atomic Habits' by James Clear. It's an insightful read on building good habits and breaking bad ones. I think it would be valuable to have more copies of this book available, as well as similar self-improvement titles. They seem to be in high demand. Thanks for your consideration, David Ng"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Toilets",
+        "feedback": "Ang mo kio library 2nd floor male toilet, the air stink. Very bad smell"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Online renewal",
+        "feedback": "Hello Library Management, The online renewal system is generally convenient, but I've noticed that it sometimes lags in reflecting renewed items. This has caused confusion about due dates. Could you look into making the system update in real-time? Thank you, Punctual Paula"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Loan promotion",
+        "feedback": "Hello, I'm writing to suggest extending the duration of your loan promotions. The recent one only lasted a week, which wasn't enough time for many patrons to take advantage of it. Perhaps consider running them for at least two weeks? Thank you for considering this feedback. Regards, Promo Fan Penny"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Furniture (condition)",
+        "feedback": "To whom it may concern, I wanted to bring to your attention the condition of the chairs in the reading area. Many of them are wobbly and uncomfortable, making it difficult to sit for extended periods. Could you please consider replacing or repairing these chairs? It would greatly enhance the comfort of library users. Sincerely, Emily Wong"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Seating Availability",
+        "feedback": "Hello, I wanted to commend the library for the recent addition of more study tables and chairs. It has significantly improved seating availability, even during busy periods. This change has made the library a much more accessible and enjoyable place to work. Thank you! Best wishes, Happy Hannah"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Photocopying services",
+        "feedback": "Hello Library Staff, I appreciate the availability of photocopying services, but I've noticed that the machines often run out of paper or toner. Could you implement a system to check and refill these more regularly? It would save a lot of frustration for users. Thank you, Researcher Rachel"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "E-Resources",
+        "feedback": "in a fast pace world, NLB needs to subscribe to blinkist so that we can take in highlights of each new book in a faster manner. this should at least be offered to citizens."
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Speaker",
+        "feedback": "Dear Library Staff, I attended the talk by Dr. Lee on climate change last week and was thoroughly impressed. His expertise and engaging presentation style made complex topics accessible. Please continue to invite such high-caliber speakers. It greatly enhances the library's value to the community. Sincerely, Lifelong Learner Larry"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Online reservation",
+        "feedback": "To the Library Team, I find the online reservation system very useful, but I've noticed that the estimated wait times are often inaccurate. Could you improve the algorithm for calculating these estimates? It would help us plan our reading better. Sincerely, Planning Peter"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reminder services",
+        "feedback": "Hello Library Management, I find the SMS reminder service for due dates very helpful. However, I've noticed that sometimes the reminders come quite late, leaving little time to return or renew books. Could you consider sending these reminders a few days earlier? This would help avoid overdue fines. Sincerely, Forgetful Fred"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "NLB Website",
+        "feedback": "We received the following feedback from an anonymous patron aboutthe info at our website (the linkbelow) is very old and not updated for <DATE_TIME> [<URL>"
+    },
+    {
+        "category": "Collection-e",
+        "subcategory": "Availability",
+        "feedback": "The reasons I gave for retaining Factiva are: 1) It is a research tool with Boolean searching <URL>ere is no similar alternative. Proquest does not contain local news articles. 2) NLB keeps promoting SURE campaigns but by removing factiva which contain multiple news sources both worldwide and local, patrons have lost 1 useful resource to improve information literacy. 3) Factiva database subscription is exorbitant. Only full-time students and faculty members in tertiary education get access to it. With the government promoting lifelong learning, NLB is doing a public good by providing access to quality databases for adults who've finished their tertiary education but want to continue learning. I am unsure whether the NLB staff communicating with me have used Factiva before or just replied to me based on the description on NLB website. Thealternatives like Newslink and newspapers SG only contain SPH publications. The <DATE_TIME> newspapers in newspapers sg contains pdf copies of <DATE_TIME> newspapers which have been long discontinued. Today is now a digital only publication. Factiva has current new articles from various local sources like channel news asia, sph news and today. Pressreader and SPH newspaper via NLB app are for casual readers who want to follow the news daily. It doesn't facilitate research. Factiva can search news by date, source and authors. I have attached some screenshots below. I hope someone from NLB can take the time to explore what Factiva can do rather than deciding solely based on cost benefits analysis."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "E-Kiosk",
+        "feedback": "NLB should reduce the electronic resources in kid area. Based on the study, the kids should have minimum screen time. But I found that the NLB facility doesnt allign with this recommensation. Whenever I am bringing my kid to the library@vivocity, there are always full with kids surrounding the computer and playing game."
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Loan promotion",
+        "feedback": "To the Library Team, I wanted to express my appreciation for the recent 'Borrow 5, Get 1 Free' loan promotion. It encouraged me to explore genres I wouldn't typically read. These promotions are a great way to encourage reading. Well done! Best, Bookworm Barry"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Mobile App",
+        "feedback": "To the Library Team, Your mobile app is generally useful, but I've noticed it often crashes when trying to renew books. Could you please look into this issue? A stable app would make managing my loans much more convenient. Thank you, App User Andy"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Book Borrowing station",
+        "feedback": "Hello, I'm writing to report an issue with the book borrowing station on the second floor. It often fails to detect the RFID tags in books, causing frustration for users. Could you please have it checked and repaired? This would greatly improve the borrowing experience. Best regards, Patient Paul"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Event Publicity - GoLibrary",
+        "feedback": "Hi! I would like to feedback that more introductory sessions for MakeIT should be conducted as these sessions are always sold out so quickly! I've been trying to apply for the sewing and 3D printing introductory courses but have always been unsuccessful! They are amazing initiatives and more sessions should be held! Thank you!"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Photocopying services",
+        "feedback": "I feedback library should hv colour printing and scanners."
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Claim return",
+        "feedback": "Dear Sir/Madam, I wanted to express my gratitude for your efficient handling of my recent claim return issue. The staff was understanding and resolved the problem quickly. It's reassuring to know that such processes are in place. Best regards, Relieved Rachel"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "NAS Website",
+        "feedback": "To the Library Administration, I find the National Archives of Singapore website difficult to navigate. The search function isn't very intuitive and it's hard to find specific collections. Could you consider redesigning the site for better user experience? This would make research much easier. Sincerely, Struggling Scholar"
+    },
+    {
+        "category": "Collection-e",
+        "subcategory": "Availability",
+        "feedback": "Dear Library Team, I've been trying to access the e-book 'The Midnight Library' for weeks now, but it's always unavailable. Could you please consider purchasing more digital licenses for popular titles? It's frustrating to wait so long. Thank you for your consideration. Best regards, Emily Chen"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Registration",
+        "feedback": "Why do we have to provide our NLB login when we sign up for events? Some of us use our NRIC as NLB login and this info is collected by eventbrite. Why does NLB allow an external non-gov party to collect all NLB logins? A hacker just need to anyhow key in random passwords to hack into NLB accounts with all the NLB logins collected to retrieve personal info"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Facilities Booking Services",
+        "feedback": "Dear Library Management, I recently tried to book a study room using your online system and found it quite cumbersome. The interface is not intuitive, and it took several attempts to complete my booking. Could you consider redesigning the system for better user experience? Sincerely, Frustrated Fred"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reference Services",
+        "feedback": "What is the official researchers association for this? If there is such an association where NLB refers to their work."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Microfilm Services",
+        "feedback": "Dear Sir/Madam, I wanted to express my appreciation for the helpful staff at the microfilm services desk. Their guidance made navigating old newspapers much easier. However, I noticed that some films are in poor condition. Could you look into digitizing these to preserve the information? Best regards, Grateful Researcher"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Seating Availability",
+        "feedback": "Dear Library Administration, I'm writing to express my frustration with the lack of available seating during peak hours, especially in the afternoons. It's often impossible to find a place to study. Could you consider adding more seating or implementing a reservation system? Thank you, Disappointed Daniel"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reminder services",
+        "feedback": "Dear Sir/Madam, I wanted to suggest adding an option for email reminders in addition to SMS. Some patrons might prefer this method, and it would be helpful to have a written record of due dates. Also, could you include the titles of the books in the reminders? Thanks, Organized Olivia"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Cleanliness",
+        "feedback": "Dear Library Management, I wanted to commend the cleanliness of the library. During my visit yesterday, I noticed how spotless the floors were and how tidy the shelves looked. It's a pleasure to study in such a well-maintained environment. Keep up the excellent work! Best regards, Sarah Tan"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Shelving",
+        "feedback": "To the Library Staff, I've noticed that books in the History section are often misplaced or difficult to locate. It seems the shelving in this area isn't being maintained as regularly as it should be. Could you please ensure more frequent reshelving in this section? It would make finding specific titles much easier. Thank you, Professor Lim Mei Ling"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Fine mailers",
+        "feedback": "Hello, I wanted to commend your new email notification system for fines. It's clear, timely, and provides easy instructions for payment. This has greatly improved my library experience. Well done! Regards, Satisfied Sam"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Loan Promotion",
+        "feedback": "Book bugs enamel pins should be restricted to 1 redemption per library account to ensure all have a chance to collect the pins."
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Signage",
+        "feedback": "To whom it may concern, I find the current signage in the library confusing and inadequate. It's often difficult to locate specific sections or services. Could you please consider updating and expanding the signage throughout the library? It would greatly help patrons navigate more easily. Thank you, Lost Larry"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Seating Availability",
+        "feedback": "Hi Sir/madam, Pls set up and add more free seating tables at one Punggol library as the capacity is nearly full 100% almost everyday. Thanks."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Facilities Booking Services",
+        "feedback": "To whom it may concern, I appreciate the recent update to your facilities booking service that allows for longer advance bookings. This has made it much easier to plan group study sessions. However, could you consider implementing a waitlist feature for popular time slots? Thanks, Planner Penny"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reference services",
+        "feedback": "To whom it may concern, While I appreciate the reference services provided, I've noticed that the wait times can be quite long during peak hours. Would it be possible to implement a queue system or increase staffing during these times? This would greatly improve the user experience. Thank you, Patient Patty"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Vandalism",
+        "feedback": "Hello, I wanted to inform you that I noticed some inappropriate drawings in one of the graphic novels in the Young Adult section. It appears someone has defaced several pages with crude sketches. Could you please remove this book for review and consider ways to discourage such behavior? Thank you for your attention to this matter. Regards, Concerned Parent"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "myLibrary ID",
+        "feedback": "Hello Library Team, I recently had trouble resetting my myLibrary ID password. The process was confusing and the reset link expired too quickly. Could you please simplify this process and extend the validity of reset links? It would make account management much easier. Regards, Forgetful Frank"
+    },
+    {
+        "category": "Collection-e",
+        "subcategory": "Others",
+        "feedback": "<DATE_TIME> I went to library. Use computer to log in press reader t hat one magazine has a lady topless don't know must inform u"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Claim Return",
+        "feedback": "I just received a call (<DATE_TIME> 2pm) <SG_ADDRESS_STREET> library regarding a book (Greg the sausage roll) I borrowed and returned on <DATE_TIME>. I was accused of tearing the pages within; and I'm highly offended by the call. It has been a good <DATE_TIME> since I returned the book, and I am supposed to be responsible for a book which I returned <DATE_TIME>?! The staff then told me that the book was in an internal shelf. What does that mean to me? Your staff has zero chance of tearing a book, while it's definitely my family who did it? And honestly, how would I know where did the book circulate in the library after I had returned it. My only daughter is <DATE_TIME>. Way past the age of book tearing. In fact, the books she had since she was a baby and regularly read are still in very good condition - way better than those in the library. So it's highly insulting to insinuate that we caused the tear; especially since it has been so long since we returned the book. Please investigate. I expect a reply."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Powerpoint outlets",
+        "feedback": "Hello, I wanted to commend you on the recent addition of power banks for loan. It's been a lifesaver when all the outlets are occupied. However, could you consider extending the loan period from 2 hours to 3? Sometimes that extra hour would be really helpful. Best wishes, Grateful Gina"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Noise",
+        "feedback": "Hello Library Staff, I'm a regular patron and I've noticed an increase in noise levels, especially in the quiet study areas. Could you please consider implementing stricter noise policies or creating more soundproof spaces? It's becoming challenging to concentrate. Thank you for your attention to this matter. Regards, Frustrated Student"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Availability",
+        "feedback": "Dear Library Management, I've been trying to borrow 'The Midnight Library' for over a month now, but it's always checked out. Could you please consider purchasing additional copies of popular books to reduce wait times? It's frustrating to see such long hold queues. Thank you for your consideration. Best regards, Sarah Lim"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Venue",
+        "feedback": "Hello, I wanted to commend the library for the recent renovation of the event space. The new layout and equipment have greatly improved the experience of attending programmes. The flexible seating arrangements are particularly useful. Well done on this upgrade! Best wishes, Comfortable Cathy"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Bookdrop",
+        "feedback": "Hi! It's a great idea that we're able to borrow books at westmall since it's undergoing renovation. May i suggest to have an area that we can return the borrow NLB books too. Thanks!"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Book Borrowing Station",
+        "feedback": "I have repeatedly encountered the same issues at your branches when attempting to borrow books at the borrowing machines. This has been happening for some time now, in particular <DATE_TIME> and <DATE_TIME>. It would appear that there is a software problem: l am not <SG_ADDRESS_STREET> than two books on the specified borrowing table for scanning at any one time, when the screen apparently invites the <SG_ADDRESS_STREET> to six books for borrowing during any one transaction. I have sought NLB staff assistance each time I encounter this problem. I am disappointed that each time, I get the same response from your staff : that there is some problem with the system, so why don't I use the NLB APP instead. While I appreciate that there is an alternative to borrowing on-site, I strongly feel that the existing borrowing feature at the machines SHOULD correctly serve its purpose. Namely, the borrowing system at the machines MUST function at all times; staff and borrowers must not have to improvise to get around the problem, especially since this problem has been there for a very long time."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Multimedia Stations",
+        "feedback": "To whom it may concern, The multimedia stations are a great resource, but they're often all occupied. Could you consider adding more stations or implementing a time limit during peak hours? This would allow more patrons to benefit from this service. Best wishes, Waiting Wendy"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Online renewal",
+        "feedback": "Dear Sir/Madam, I wanted to suggest extending the online renewal limit from 2 to 3 times per item. As a busy professional, this would be incredibly helpful in managing my borrowings. Of course, this could be subject to no reservations on the item. Best wishes, Time-Strapped Tim"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Furniture (condition)",
+        "feedback": "Dear Sir/Madam, I'm writing to compliment the new study carrels installed last month. They're spacious, well-lit, and provide excellent privacy for focused work. This upgrade has significantly improved my library experience. Thank you for investing in quality furniture. Best wishes, Michael Lim"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Review of titles",
+        "feedback": "My <DATE_TIME> daughter recently borrowed <PERSON> book entitledRobodog from the children's section of one the national libraries. The book features a female police chief with a wife, and even a scene where they express affection for each other. I understand that shows with LGBTQ themes are rated NC-16 in <LOCATION>. Surely a book with such themes should be moved to the Young Adult or Adult section. I have attached a photo from the book below for your kind reference. I hope action can be taken to move the book to a section for more mature readers."
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Presentation",
+        "feedback": "Dear Sir/Madam, While I appreciate the effort put into the recent financial literacy presentation, I found the content too basic for the advertised 'intermediate' level. In the future, could you provide more detailed descriptions of the content level? This would help attendees choose appropriate sessions. Regards, Finance Professional Fred"
+    },
+    {
+        "category": "Customer Service",
+        "subcategory": "Vendor",
+        "feedback": "Hello, I'm writing about the photocopying services provided by the current vendor. The machines are often out of order or produce poor quality copies. Additionally, the cost per page seems higher than at other libraries or copy shops. Could you please review this service and consider alternatives? It would be much appreciated. Thanks, Researcher Raj"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Event Publicity - Others",
+        "feedback": "Hi, we went to the library at lot 1 choa chu kang to collect the goodie bag, as stated below but was informed by the officer that there is no more goodie bag. could you clarify pls. thanks."
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Presentation",
+        "feedback": "Facilitated Read for Books session on <DATE_TIME>, <DATE_TIME>. The theme was on Light-hearted murder mysteries and she shared book recommendations and cultivated exchange of book recommendations and community between programme participants. Feedback received: Like the recommendations by the librarians!"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Others",
+        "feedback": "I would like to know why the entrance to the Bedok Library on the second floor is closed and we can only enter and exit from the 3rd floor? Those who want to go to the second floor now needs to enter from 3rd floor and also need to climb up to 3rd floor to exit. It totally doesnt make any sense and created a lot of inconvenience particularly for senior citizens. I hope NLB can explain this decision."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Mobile App",
+        "feedback": "Hello, I wanted to commend you on the recent update to the mobile app. The new feature that allows us to scan books in the library and see reviews is fantastic. It's made my browsing experience much more informative. Keep up the great work! Sincerely, Tech-Savvy Tina"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Toilets",
+        "feedback": "Hello Library Management, I'm writing to report an issue with the cleanliness of the toilets on the second floor. They're often out of soap and paper towels, and the floors are frequently wet. Could you please ensure more regular maintenance of these facilities? Thank you for your attention to this matter. Regards, Concerned Patron"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Opening Hours",
+        "feedback": "Hi,dear <PERSON>,can we have a library open at public holiday,very thanks"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Speaker",
+        "feedback": "To whom it may concern, While I appreciate the effort to bring in diverse speakers, I found the recent talk on local history to be poorly researched and presented. In the future, could you ensure that speakers are properly vetted for their expertise? This would maintain the high quality we expect from library programmes. Thank you, History Buff Helen"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Membership-Basic",
+        "feedback": "I hope that you will reconsider allowing EP/DP holders to get a library card for the same price as PR. We also pay taxes! I am on a teacher's salary and would really appreciate being able to get a library card, at least for my kids. They go to an international school, but not because I can afford it - only because I teach there and tuition is partially waived (leading to more taxes). I understand thatit <SG_ADDRESS_STREET> generate funds for the library, but is very difficult on those of us that don't make quite as much as some of the other expats. Thank you for your consideration,"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Facilities Booking Services",
+        "feedback": "Suggest people should only be allowed to book seats when physically present at the library. Many book in advance and don't turn up. It deprives others who are present but can't book as seats are already booked."
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Cleanliness",
+        "feedback": "here are a lot of ants at the lee kong chian referance library level 7"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Availability",
+        "feedback": "Hello, I'm writing to express my concern about the limited availability of textbooks in your collection. As a student, it's challenging to find the required course materials, especially during exam periods. Would it be possible to increase the number of copies for commonly used textbooks? This would greatly help students like me. Thanks in advance, John Tan"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Scanning services",
+        "feedback": "Dear Library Management, I recently used the scanning services at the library and was impressed by the ease of use. However, I noticed that the scanner's resolution was quite low, making it difficult to read small text in some documents. Could you consider upgrading to higher resolution scanners? This would greatly improve the quality of scans, especially for research purposes. Thank you for your attention to this matter. Best regards, Researcher Rachel"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library fines",
+        "feedback": "Hello, I appreciate the recent change in fine policy where fines are waived if books are returned within a grace period. It's a fair system that encourages timely returns without being punitive. Thank you for this patron-friendly approach. Regards, Appreciative Alex"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Cleanliness",
+        "feedback": "Hello, I'm writing to express my concern about the cleanliness of the study tables. I've noticed that they're often sticky and have food stains. Could you please ensure more frequent cleaning of these areas? It would greatly improve the studying experience for all patrons. Thank you, John Lee"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Opening Hours",
+        "feedback": "To whom it may concern, I'm writing to request an extension of library hours, particularly on weekends. As a working professional, I find it challenging to visit the library during current hours. Even an extra hour on Saturday evenings would be incredibly helpful. Thank you for considering this suggestion. Sincerely, Weekend Warrior"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Variety",
+        "feedback": "Dear Sir/Madam, I wanted to express my appreciation for the wide variety of programmes you've been offering lately. From coding classes for kids to gardening workshops for adults, there's something for everyone. This diverse range of activities truly makes the library a community hub. Keep up the excellent work! Regards, Enthusiastic Erica"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reservation services - Others",
+        "feedback": "To the Library Administration, I've noticed that the reservation system doesn't allow for bulk reservations. As a teacher, it would be incredibly helpful to be able to reserve multiple copies of a book for my class. Could you consider adding this feature? Thank you, Educator Emma"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Cashless payment",
+        "feedback": "Dear Library Management, I appreciate the recent move to cashless payments for fines and fees. It's much more convenient and safer. However, I noticed that the system was down last week, causing delays. Could you ensure there's a backup payment method available in such cases? Thank you, Sarah Tan"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Noise",
+        "feedback": "I have been to many libraries such as woodlands, sengkang, bugis and serangoon and none like Punggol library. It is the only library that allowed kids to scream <DATE_TIME> and no librarian is present to check on them. Please ensure that the library is <SG_ADDRESS_STREET> people to study for exams and not for parents to bring kids to pass time. If these parents can't cannot control their kids, please ask them to leave. Thank you."
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Event Publicity - others",
+        "feedback": "To whom it may concern, I've noticed that your event posters around the library are often outdated. It would be helpful if these could be updated more regularly to reflect current and upcoming events. This would ensure patrons don't miss out on interesting programmes. Thank you for your consideration. Sincerely, Observant Olivia"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Others",
+        "feedback": "Bishan library lifts are in bad shape. other library lifts move up and down smoothly but this library, the lifts are not functioning well, super slow and have to press the buttons many times. time to upgrade the buttons."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reference services",
+        "feedback": "Dear Library Team, I recently used the online chat reference service and found it incredibly helpful. The librarian was knowledgeable and patient. However, I noticed the service is only available during limited hours. Could you consider extending these hours? It would be very beneficial for those who work late. Regards, Night Owl Nick"
+    },
+    {
+        "category": "Customer Service",
+        "subcategory": "Staff",
+        "feedback": "The staff in Bedok Library is very helpful"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Reservation services - Reservation Lockers",
+        "feedback": "To whom it may concern, I love the convenience of the reservation lockers, but I've had issues with the touchscreen interface. Sometimes it's unresponsive, making it difficult to retrieve my books. Could you please look into upgrading or maintaining these screens? Thank you, Frustrated Fiona"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Reservation fee & policy",
+        "feedback": "To the Library Administration, I find the current reservation fee for books quite high, especially for students. Would it be possible to introduce a lower fee for students or a system where the fee is refunded upon pickup? This would make reservations more accessible. Thank you, Budget-conscious Bella"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Fine mailers",
+        "feedback": "Dear Library Administration, I recently received a fine mailer for an overdue book, but the notification came after the due date. It would be more helpful if these reminders were sent a few days before the due date. This could help patrons avoid fines altogether. Thank you for considering this suggestion. Best, Punctual Paula"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "NAS Website",
+        "feedback": "Hello, I wanted to commend the recent addition of virtual tours to the NAS website. It's a great way to explore the archives from home. However, I've noticed some of the links are broken. Could you please check and update these? Thank you, Virtual Visitor Vicky"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Variety",
+        "feedback": "Hello Library Team, I've noticed that most of your programmes cater to either children or seniors. As a young professional, I'd love to see more events targeted at my age group, perhaps on topics like career development or modern literature. This would help attract more diverse patrons. Thanks for considering this suggestion. Best, Millennial Mike"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library Etiquette-others",
+        "feedback": "To whom it may concern, I've noticed an increase in patrons eating in the library, despite the no-food policy. Could you please consider putting up more visible signs about this rule and perhaps increase staff monitoring? The food odors and potential for book damage are concerning. Thank you, Concerned Reader"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Cashless payment",
+        "feedback": "Hello, I'm writing to suggest adding more payment options to your cashless system. Currently, it only accepts credit cards, but it would be great if you could include options like PayNow or NETS. This would make it easier for those who don't use credit cards. Best regards, John Lee"
+    },
+    {
+        "category": "Customer Service",
+        "subcategory": "Others",
+        "feedback": "This staff uses astral travelling. And uses the unorthodox rape on me. And witchcraft. Please dismiss him. Guy in pink shirt at <DATE_TIME>. At level 2. Very tall man."
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library Etiquette - Studying",
+        "feedback": "refer to the LKC Library @ <SG_ADDRESS_STREET> (Levels 7-11). As <DATE_TIME> is the start of the School Holidays, many O A levels students are at the LKC library. By <DATE_TIME>, most of the seats were taken and reserved. These students genuinely want <SG_ADDRESS_STREET> study. However, some reserve seats for their friends <SG_ADDRESS_STREET> bags thus reducing the optimal seating capacity. May I request for NLB to initiate patrolling to allow maximum Number of Students. Both these traits in our society rear its ugly head even in the library. I am sure LKC Library knows very well that these students are here from third term school holidays until their major exams. Of course there are some Sec 3 and JC 1 students too. I hope LKC would improve the current situation."
+    },
+    {
+        "category": "Customer Service",
+        "subcategory": "Staff",
+        "feedback": "Hello, I'm writing to express my disappointment with the service I received from one of your librarians on Tuesday afternoon. When I asked for help finding a book on Singapore's history, the staff member seemed disinterested and barely looked up from their computer. This is not the level of service I've come to expect from our library. I hope this feedback can be used constructively to improve customer service. Regards, Mrs. Siti Aminah"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Resources",
+        "feedback": "Hello, I wanted to suggest expanding your foreign language resources, particularly for less commonly taught languages. As someone learning Korean, I've found the current selection limited. More diverse language resources would be greatly appreciated. Best, Language Learner Lucy"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Others",
+        "feedback": "I would like to highlight an error that is found on a display at Bishan library Junior section One of the letters has to be removed from the word ???????. It should be ????? ."
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Presentation",
+        "feedback": "Hello Library Team, I attended the recent presentation on digital literacy for seniors and found it extremely helpful. The presenter was knowledgeable and patient. Could you please organize more such sessions? They're invaluable for helping older patrons navigate the digital world. Thank you, Grateful Grandma"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Others",
+        "feedback": "his is the reply received. Unsure if they will be replying another time. But the link is from NLB so unsure why your earlier reply mention Panopto not NLB vendor."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Photocopying services",
+        "feedback": "Dear Sir/Madam, The recent upgrade to color photocopying machines is great, but I've found the cost per page quite high. Would it be possible to introduce a loyalty program or bulk discount for frequent users? This would be very helpful for students like me. Sincerely, Budget-conscious Ben"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "NLB Website",
+        "feedback": "To whom it may concern, The new 'Recommended Reads' feature on the NLB website is fantastic! It's helped me discover many great books. However, I've noticed that the recommendations don't update very often. Could you increase the frequency of updates? Thanks, Avid Reader Adam"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Wireless Internet services",
+        "feedback": "Dear Sir/Madam, I wanted to commend the library on providing free wireless internet services. It's a valuable resource for many patrons, including myself. However, I've encountered difficulties with the login process. The captive portal often fails to load, requiring multiple attempts to connect. Could you please look into simplifying the login process or implementing a 'remember device' feature? This would save time and reduce frustration for frequent visitors. Thank you for your consideration. Regards, Frequent Visitor Fred"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Library Etiquette-others",
+        "feedback": "Could staff please remove parents with kids from adults sections, I am currently at level3 of Jurong West public library and there is a kid and his mother constantly talking and the mother is constantly trying to get him to talk softer I think but it's kind of irritating and disruptive, libraries are supposed to be quiet right? There is a kids section on level2 also don't know why they have to be talking on level 3. It is just not considerate to bring kids who can't control their volume to quiet areas."
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Variety",
+        "feedback": "Have a mindfulness event once a month"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Multimedia Stations",
+        "feedback": "Dear Library Management, I frequently use the multimedia stations for video editing, but I've noticed that the software is quite outdated. Would it be possible to update to more recent versions? This would greatly enhance the usefulness of these stations. Thank you, Digital Creator Dan"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "myLibrary ID",
+        "feedback": "Dear Sir/Madam, I appreciate the recent addition of two-factor authentication for myLibrary ID. It's reassuring to have this extra layer of security. However, could you provide an option for backup codes in case we lose access to our phones? Thank you, Security-Conscious Sarah"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Multimedia Stations",
+        "feedback": "The National Library does not have d WORD software for users. I think it is something so basic n d Library should have it. Retirees like me once in a while need to type something on Word but d Library do not have it. It is costly for retirees to buy but for d government it can benefit student too. Tq"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Catalogue",
+        "feedback": "Dear Sir/Madam, I appreciate the recent addition of book cover images to the online catalogue. It's made browsing much more engaging. However, I've noticed that some newer books are missing from the system. Could you ensure the catalogue is updated more frequently? Regards, Bookworm Betty"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Vandalism",
+        "feedback": "Dear Library Management, I'm writing to report that I found a book with several pages torn out in the Fiction section (call number F LEE). It's disheartening to see such disrespect for public resources. Could you implement stricter measures to prevent book vandalism? Sincerely, Robert Tan"
+    },
+    {
+        "category": "Collection-e",
+        "subcategory": "Availability",
+        "feedback": "Hello, I'm writing to express my concern about the limited availability of audiobooks in your digital collection. It seems that all the bestsellers are constantly on hold with long waiting lists. Is there a way to increase the number of copies for high-demand titles? It would greatly improve the user experience. Thanks, Michael Wong"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Exhibition",
+        "feedback": "Hello Library Staff, I recently attended the 'Local Authors' exhibition and found it incredibly informative and well-curated. The interactive elements were particularly engaging. I would love to see more exhibitions like this in the future. Great job! Regards, Culture Enthusiast Charlie"
+    },
+    {
+        "category": "Environment",
+        "subcategory": "Furniture (condition)",
+        "feedback": "We received feedback via the OneService app about a torn sofa on level 2"
+    },
+    {
+        "category": "Policies & Procedures",
+        "subcategory": "Opening Hours",
+        "feedback": "Dear Library Team, I wanted to commend your decision to open the library an hour earlier on weekdays. This has been a great help for early birds like me who like to study before work. Thank you for being responsive to community needs. Best regards, Morning Person Mary"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "NLB Website",
+        "feedback": "Dear Library Staff, I appreciate the wealth of information on the NLB website, but I find the layout cluttered and overwhelming. Would it be possible to streamline the design and improve the search functionality? This would make it easier to find what we're looking for. Best regards, Overwhelmed Olivia"
+    },
+    {
+        "category": "Programmes",
+        "subcategory": "Event Publicity - GoLibrary",
+        "feedback": "Dear Library Team, I recently discovered the GoLibrary app and I'm impressed with how it showcases upcoming events. However, I noticed that some events aren't updated in real-time. It would be great if you could ensure all events are promptly reflected in the app. This would help patrons like me plan better. Thank you, Tech-Savvy Tina"
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Others",
+        "feedback": "I'd like to suggest adding multi-faith prayer facilities or quiet rooms in your libraries for prayers and/or private contemplation."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Powerpoint outlets",
+        "feedback": "To the Library Management, I've noticed that there aren't enough power outlets near the study areas, especially for laptop users. Could you consider adding more outlets or even USB charging ports? This would greatly improve the studying experience. Thank you, Power-hungry Paul"
+    },
+    {
+        "category": "Collection-Print",
+        "subcategory": "Availability",
+        "feedback": "<DATE_TIME> I checked the availability of books on this site before making the journey to the Jurong Regional library. When I reached the library 2 of the books were not there. I checked the site again which showed both books should still be available. The library staff helped me and confirmed the books were missing. It's frustrating to make the journey to find the books missing. This has also happened at Vivo on another occasion. Again the library staff could not explain the error. I also noticed the site often shows a book at a particular library noting it's unavailable. It remains on this status for <DATE_TIME>. It's also the only library with this book. Clearly the book is lost and not available anywhere else. Frustrating. How does the system manage these anomalies? Perhaps some improvements could be made to have the physical and system stock reconciled."
+    },
+    {
+        "category": "Services & Facilities",
+        "subcategory": "Scanning services",
+        "feedback": "Hello Library Team, I appreciate the availability of scanning services, but I've encountered an issue with saving scanned documents. The current system only allows saving to USB drives, which I often forget to bring. Would it be possible to implement a feature that allows us to email scanned documents directly to ourselves? This would make the service much more convenient for patrons like me who rely on digital copies. Thank you for considering this suggestion. Sincerely, Tech-Savvy Tom"
+    }
+]

@@ -7,7 +7,7 @@ import plotly.express as px
 from utility import check_password
 import re
 from io import StringIO
-#from wordcloud import WordCloud
+from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import time
 import numpy as np
