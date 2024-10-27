@@ -16,8 +16,7 @@ def identify_category(user_message):
 
     system_message = f"""
     You are tasked with categorizing customer feedback  for a library\
-    The feebcack will be enclosed in
-    the pair of {delimiter}.
+    The feebcack will be enclosed in the pair of {delimiter}.
 
     Decide if the feedback is relevant to any predefined categories and subcategories
     in the Python dictionary below: Study the below dictionary:
@@ -27,9 +26,13 @@ def identify_category(user_message):
     You may assign multiple categories and subcategories to a single piece if appropriate, but do not duplicate same Category and Subcategory in the same feedback. 
     For each category and subcategory assigned, identify and extract relevant keywords or phrases from the feedback that justify the categorization. ONLY include keyword that provided in the given feedback below. 
     Try to find and assign the best match that is closest to the predefined categories, you can assign the subcategory to "Others" if no relevant subcategory.
-    Output should be in the same format as the json data provided above do not include the Feedback, it should be a valid json, do not include the word json or backtick.
+    Output should be in the same format as the json data provided above do not include the feedback, it should be a valid json, do not include the word json or backtick.
     Review if the json has duplicate Category and Subcategory, combine keywords for the same Category and Subcategory.  
     Keywords should be a list in the json.
+
+    Finally, perform sentiment analysis. Provide the sentiment such as negative, positive or neutral. Field name in the json should be named as 'sentiment'. 
+    Rate the sentiment from -100 to 100. -100 as extremely negative, 0 as neutral and 100 as extremely positive. Field name in the json should be named as 'rating'. 
+    Include 'sentiment' and 'rating' in json for each categoory and subcategory.
     """
 
     messages =  [
