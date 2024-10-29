@@ -2,12 +2,16 @@ import pandas as pd
 from feedback_handler import feedback_class
 import json
 import time
+import streamlit as st
 
 # run through model
 def iterate_test_set(test_data):
     # Record the start time
+    progress_bar = st.progress(0)
     start_time = time.time()
     print("Starting the function...")
+    i=0
+    iterations = test_data.shape[0]
 
     # Extract the "Cleaned Text" data
     feedback = test_data["Cleaned Text"]
@@ -15,6 +19,9 @@ def iterate_test_set(test_data):
 
     # Process each user message
     for user_message in feedback:
+        progress_percentage = (i + 1) / iterations
+        progress_bar.progress(progress_percentage)
+        i += 1
         response = feedback_class.process_feedback_class(user_message) 
         try:
             response_json = json.loads(response)
@@ -52,9 +59,9 @@ def validate(test_data):
     total_count = test_data.shape[0]
 
     # recall for categories: number of correctly classified categories out of test set
-    print(f"Number of correct categories: {validation_cat["correct_cat_flag"].sum()} of {total_count}")
+    print(f"Number of correct categories:\n{validation_cat["correct_cat_flag"].sum()} of {total_count}")
     # recall for sub-categories.
-    print(f"Number of correct sub-categorisations: {validation["correct_sub_cat_flag"].sum()} of {total_count}")
+    print(f"Number of correct sub-categorisations:\n{validation["correct_sub_cat_flag"].sum()} of {total_count}")
     return validation, validation_cat
 
 if __name__ == "__main__":
