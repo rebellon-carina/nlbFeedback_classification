@@ -23,3 +23,8 @@ dist/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#data
+data/
+"test_data_and_functions/Composite test set for all categories.csv"
+test_data_and_functions/validation_results.csv
