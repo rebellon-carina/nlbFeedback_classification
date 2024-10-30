@@ -24,9 +24,9 @@ def iterate_test_set(test_data):
         i += 1
         response = feedback_class.process_feedback_class(user_message) 
         try:
-            response_json = json.loads(response)
-            responses = response_json.get("feedback_data")
-            for response_dict in responses:
+            # response_json = json.loads(response)
+            # responses = response_json.get("feedback_data")
+            for response_dict in response:
                 response_dict["feedback_text"] = user_message
                 classified.append(response_dict)
             

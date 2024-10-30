@@ -129,9 +129,10 @@ if form.form_submit_button("Submit"):
 
 
         try: # check if LLM output is in suitable format
-            response_json = json.loads(response)
+            # response_json = json.loads(response)
 
-            df = pd.DataFrame(response_json['feedback_data'])
+            # df = pd.DataFrame(response_json['feedback_data'])
+            df = pd.DataFrame(response)
             df['feedback'] = record
             
             if(len(df) > 0):
