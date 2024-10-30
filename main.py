@@ -215,34 +215,32 @@ if form.form_submit_button("Submit"):
 
         st.plotly_chart(fig)
 
-        #remove word cloud
+        st.markdown("""
+           <style>
+           .title {
+               text-align: center;
+               font-size: 20px;
+               font-weight: bold;
+           }
+           </style>
+           <div class="title">WordCloud from Keywords</div>
+           """,
+           unsafe_allow_html=True
+        )
 
-        #st.markdown("""
-        #    <style>
-        #    .title {
-        #        text-align: center;
-        #        font-size: 20px;
-        #        font-weight: bold;
-        #    }
-        #    </style>
-        #    <div class="title">WordCloud from Keywords</div>
-        #    """,
-        #    unsafe_allow_html=True
-        #)
-
-        #result = ' '.join([word for sublist in st.session_state.df_feedback["keywords"] for word in sublist])
+        result = ' '.join([word for sublist in st.session_state.df_feedback["keywords"] for word in sublist])
 
         # Create and generate a word cloud image:
-        #book_mask = np.array(Image.open('image/blank.jpeg'))
+        # book_mask = np.array(Image.open('image/blank.jpeg'))
 
-        #wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
-        #                       contour_color='black', contour_width=1).generate(result)
+        wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
+                              contour_color='black', contour_width=1).generate(result)
         
         # Display the word cloud using matplotlib
-        #plt.figure(figsize=(10, 5))
-        #plt.imshow(wordcloud, interpolation='bilinear')
-        #plt.axis('off')  # Hide the axes
-        #plt.tight_layout()
+        plt.figure(figsize=(10, 5))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')  # Hide the axes
+        plt.tight_layout()
 
         # Show the plot in Streamlit
-        #st.pyplot(plt)
+        st.pyplot(plt)
