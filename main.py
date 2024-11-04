@@ -195,7 +195,7 @@ if form.form_submit_button("Submit"):
                 )
 
         if(len(st.session_state.df_feedback) > 0):
-            st.write("With Category")
+            st.write("Categorised Feedback")
             st.write(st.session_state.df_feedback)
             download_button()
             st.divider()
@@ -210,48 +210,50 @@ if form.form_submit_button("Submit"):
             # Create a stacked bar chart
 
             df_count = st.session_state.df_feedback.groupby(['category', 'subcategory']).size().reset_index(name='count')
+            try: 
+                # Create a stacked bar chart
+                fig = px.bar(df_count, 
+                            x='category', 
+                            y='count', 
+                            color='subcategory', 
+                            title='Feedback by Category and SubCategory (Count)',
+                            labels={'count': 'count', 'category': 'category'},
+                            text='count')
 
-            # Create a stacked bar chart
-            fig = px.bar(df_count, 
-                        x='category', 
-                        y='count', 
-                        color='subcategory', 
-                        title='Feedback by Category and SubCategory (Count)',
-                        labels={'count': 'count', 'category': 'category'},
-                        text='count')
+                # Update layout for better readability
+                fig.update_traces(texttemplate='%{text}', textposition='outside')
+                fig.update_layout(barmode='stack')
 
-            # Update layout for better readability
-            fig.update_traces(texttemplate='%{text}', textposition='outside')
-            fig.update_layout(barmode='stack')
+                st.plotly_chart(fig)
 
-            st.plotly_chart(fig)
+                st.markdown("""
+                <style>
+                .title {
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                </style>
+                <div class="title">WordCloud from Keywords</div>
+                """,
+                unsafe_allow_html=True
+                )
 
-            st.markdown("""
-            <style>
-            .title {
-                text-align: center;
-                font-size: 20px;
-                font-weight: bold;
-            }
-            </style>
-            <div class="title">WordCloud from Keywords</div>
-            """,
-            unsafe_allow_html=True
-            )
+                result = ' '.join([word for sublist in st.session_state.df_feedback["keywords"] for word in sublist])
 
-            result = ' '.join([word for sublist in st.session_state.df_feedback["keywords"] for word in sublist])
+                # Create and generate a word cloud image:
+                # book_mask = np.array(Image.open('image/blank.jpeg'))
 
-            # Create and generate a word cloud image:
-            # book_mask = np.array(Image.open('image/blank.jpeg'))
+                wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
+                                    contour_color='black', contour_width=1).generate(result)
+                
+                # Display the word cloud using matplotlib
+                plt.figure(figsize=(10, 5))
+                plt.imshow(wordcloud, interpolation='bilinear')
+                plt.axis('off')  # Hide the axes
+                plt.tight_layout()
 
-            wordcloud = WordCloud(width=800, height=400, background_color='white',#mask=book_mask,
-                                contour_color='black', contour_width=1).generate(result)
-            
-            # Display the word cloud using matplotlib
-            plt.figure(figsize=(10, 5))
-            plt.imshow(wordcloud, interpolation='bilinear')
-            plt.axis('off')  # Hide the axes
-            plt.tight_layout()
-
-            # Show the plot in Streamlit
-            st.pyplot(plt)
+                # Show the plot in Streamlit
+                st.pyplot(plt)
+            except:
+                st.write("WordCloud could not be generated")
