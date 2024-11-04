@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
 import json
+from utility import check_password
 
+if not check_password():  
+    st.stop()
 
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
