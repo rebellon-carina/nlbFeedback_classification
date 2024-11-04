@@ -62,6 +62,12 @@ if 'record_ctr' not in st.session_state:
 if 'all_feedback' not in st.session_state:
     st.session_state.all_feedback = "NLB"
 
+input_test = """
+Give more table and chair
+Install tinted window as the reflective glass window is bad for the eyes.
+Level 3 not enough place
+"""
+
 # Function to parse the pasted text
 def parse_records(input_text):
     # Split the input text by double quotes and filter out empty strings
@@ -72,7 +78,7 @@ def parse_records(input_text):
     records = re.findall(pattern, input_text)
 
     # Filter out any empty strings that may occur due to split
-    return [record for record in records if record]
+    return [record.replace("\n", "") for record in records if record]
 
 st.title(":pencil: Feedback Entry Form")
 
