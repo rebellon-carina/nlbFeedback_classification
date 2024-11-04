@@ -13,7 +13,7 @@ st.write("This page displays the validation test set for the classification mode
          "This page may take 5 min to load as it calls the LLM to classify the test set, do not click away in the meantime.")
 
 if 'test_data' not in st.session_state:
-    st.session_state.test_data = pd.read_csv("test_data_and_functions/Composite test set for all categories.csv")
+    st.session_state.test_data = pd.read_csv("test_data_and_functions/Composite test set for all categories.csv").dropna()
 
 if 'validation_subcat' not in st.session_state:
     st.session_state.validation_subcat, st.session_state.validation_cat = cleaning_output.validate(st.session_state.test_data)
