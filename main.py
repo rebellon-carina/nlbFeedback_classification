@@ -78,7 +78,7 @@ def parse_records(input_text):
     records = re.findall(pattern, input_text)
 
     # Filter out any empty strings that may occur due to split
-    return [record[:-1] for record in records if record]
+    return [record.rstrip() for record in records if record]
 
 st.title(":pencil: Feedback Entry Form")
 
@@ -155,7 +155,7 @@ if form.form_submit_button("Submit"):
                         st.session_state.df_feedback = df
                 else:
                     
-                    df = pd.DataFrame({"category":"","subcategory":"", "keywords": "", "feedback":record})
+                    df = pd.DataFrame({"category":[""],"subcategory":[""], "keywords": [[]], "feedback":record})
                     if(len(st.session_state.df_feedback) > 0):  
                         st.session_state.df_feedback = pd.concat([st.session_state.df_feedback, df], ignore_index=True)
                     else:
@@ -164,7 +164,7 @@ if form.form_submit_button("Submit"):
                 # if there was a different response from LLM, e.g. not in json format, empty value,
                 # add the feedback to another dataframe
 
-                df = pd.DataFrame({"category":"","subcategory":"", "keywords": "", "feedback":record})
+                df = pd.DataFrame({"category":[""],"subcategory":[""], "keywords": [[]], "feedback":record})
 
                 if(len(st.session_state.df_feedback) > 0):  
                     st.session_state.df_feedback = pd.concat([st.session_state.df_feedback, df], ignore_index=True)
